@@ -40,7 +40,7 @@ class DetectionService {
             face_plugins: true,
             status: true
         };
-        let full_url = get_full_url(this.base_url, this.server, this.port)
+        let full_url = get_full_url(this.base_url, this.server)
         // add parameters to basic url
         let url = add_options_to_url(full_url, this.options, localOptions, required_url_parameters);
 
